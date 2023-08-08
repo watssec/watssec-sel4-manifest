@@ -13,7 +13,7 @@
 
 <default revision="master" remote="seL4" />
 
-<project name="seL4.git" revision="6dbfeccd7cee8b2099c1f6aa146ccc460e48996e" path="kernel"/>
+<project name="seL4.git" revision="6dbfeccd7cee8b2099c1f6aa146ccc460e48996e" dest-branch="master" path="kernel"/>
 <project name="seL4_tools.git" path="tools/seL4">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
