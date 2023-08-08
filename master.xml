@@ -9,11 +9,12 @@
 
 <remote name="seL4" fetch="../sel4" />
 <remote name="watssec" fetch="." />
+<remote name="Kindhearted57" fetch="https://github.com/Kindhearted57">
 <remote fetch="https://github.com/riscv" name="opensbi"/>
 
 <default revision="master" remote="seL4" />
 
-<project name="seL4.git" revision="6dbfeccd7cee8b2099c1f6aa146ccc460e48996e" dest-branch="master" path="kernel"/>
+<project name="seL4.git" remote="Kindhearted57" revision="7ef375212eb79c788bc4f2fa57ef1cfeb1285363" dest-branch="master" path="kernel"/>
 <project name="seL4_tools.git" path="tools/seL4">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
