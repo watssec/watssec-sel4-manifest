@@ -20,7 +20,7 @@
 </project>
 <project name="sel4runtime.git" path="projects/sel4runtime"/>
 <project name="util_libs.git" path="projects/util_libs"/>
-<project name="sel4-example.git" remote="watssec" path="projects/sel4-example" dest-branch="main">
+<project name="sel4-example.git" remote="watssec" revision="49f762f2ac7f35a69f654724ad244f96ad89b071" path="projects/sel4-example" dest-branch="main">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
 </project>
 <project
