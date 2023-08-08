@@ -8,7 +8,7 @@
 
 
 <remote name="seL4" fetch="../sel4" />
-<remote name="watssec" fetch="." />
+<remote name="watssec" fetch="https://github.com/watssec" />
 <remote name="Kindhearted57" fetch="https://github.com/Kindhearted57">
 <remote fetch="https://github.com/riscv" name="opensbi"/>
 
