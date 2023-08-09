@@ -13,7 +13,7 @@
 <remote fetch="https://github.com/riscv" name="opensbi"/>
 
 <default revision="master" remote="seL4" />
-
+<project name="seL4-CAmkES-L4v-dockerfiles.git" path="./" />
 <project name="seL4.git" remote="Kindhearted57" revision="7ef375212eb79c788bc4f2fa57ef1cfeb1285363" dest-branch="master" path="kernel"/>
 <project name="seL4_tools.git" path="tools/seL4">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
