@@ -20,15 +20,15 @@
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
 </project>
 <project name="sel4runtime.git" path="projects/sel4runtime"/>
+<project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
+<project name="seL4_libs.git" path="projects/sel4_libs">
 <project name="util_libs.git" path="projects/util_libs"/>
 <project name="sel4-example.git" remote="watssec" revision="13e2a259493e246296087986f542dced6eb7bb3a" path="projects/sel4-example" dest-branch="main">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
 </project>
-<project
-    name="opensbi"
-    remote="opensbi"
-    revision="234ed8e427f4d92903123199f6590d144e0d9351"
-    path="tools/opensbi"
-/>
+<project name="opensbi" remote="opensbi" revision="refs/tags/v0.9" path="tools/opensbi"/>
+<project name="nanopb" path="tools/nanopb" revision="refs/tags/0.4.3" upstream="master" remote="nanopb"/>
+<project name="sel4_projects_libs" path="projects/sel4_projects_libs" />
 
+     
 </manifest>
