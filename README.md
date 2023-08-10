@@ -26,7 +26,7 @@ File structure layout
 - docker
 - easy-settings.cmake
 - griddle (alias)
-- init-build.sh
+- init-build.sh (alias)
 - /kernel
 - /projects
 - /tools
