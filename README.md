@@ -16,3 +16,28 @@ Start the docker
 $ alias container="make -C ./docker user HOST_DIR=$(pwd)"
 $ container
 ```
+
+Build the project
+
+File structure layout
+
+```
+- build
+- docker
+- easy-settings.cmake
+- griddle (alias)
+- init-build.sh
+- /kernel
+- /projects
+- /tools
+```
+
+Under the root dir, create a build folder.
+
+```
+# In build folder
+$ ./init-build.sh -DPLATFORM=x86_64 -DSIMULATION=TRUE 
+# In build folder
+$ ninja
+
+```
