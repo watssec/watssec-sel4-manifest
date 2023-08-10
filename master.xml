@@ -24,7 +24,7 @@
 <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
 <project name="seL4_libs.git" path="projects/sel4_libs"/>
 <project name="util_libs.git" path="projects/util_libs"/>
-<project name="sel4-example.git" revision="9c33313a0a1877e91f3abe2dedc02a3d7dcce9ea" remote="watssec" path="projects/sel4-example" dest-branch="main">
+<project name="sel4-example.git" revision="ec81a7412e214d9e923098c911b889a6f6836e1b" remote="watssec" path="projects/sel4-example" dest-branch="main">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
 </project>
 <project name="opensbi" remote="opensbi" revision="refs/tags/v0.9" path="tools/opensbi"/>
