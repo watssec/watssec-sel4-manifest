@@ -12,6 +12,7 @@
 <remote fetch="https://github.com/nanopb" name="nanopb" />
 <remote name="Kindhearted57" fetch="https://github.com/Kindhearted57"/>
 <remote fetch="https://github.com/riscv" name="opensbi"/>
+<remote name="verification" fetch="."/>
 
 <default revision="master" remote="seL4" />
 <project name="seL4-CAmkES-L4v-dockerfiles.git" path="docker" />
@@ -31,5 +32,10 @@
 <project name="nanopb" path="tools/nanopb" revision="refs/tags/0.4.3" upstream="master" remote="nanopb"/>
 <project name="sel4_projects_libs" path="projects/sel4_projects_libs" />
 
+<project name="HOL" path="HOL4" revision="successful-decompile" />
+<project name="graph-refine" />
+<project name="isabelle" revision="ts-2022" />
+<project name="l4v" />
+<project name="polyml" path="HOL4/polyml" revision="successful-decompile"/>
      
 </manifest>
