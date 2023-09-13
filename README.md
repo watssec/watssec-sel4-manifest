@@ -41,3 +41,16 @@ $ ./init-build.sh -DPLATFORM=x86_64 -DSIMULATION=TRUE
 $ ninja
 
 ```
+## Verification
+
+Verification related file structure layout
+
+```
+- HOL4
+- l4v
+- polyml
+- graph-refine
+- isabelle 
+```
+
+l4v contains most of the proofs, details can be found in [here](https://github.com/seL4/l4v/tree/master)
