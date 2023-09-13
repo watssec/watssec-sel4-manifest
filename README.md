@@ -54,3 +54,10 @@ Verification related file structure layout
 ```
 
 l4v contains most of the proofs, details can be found in [here](https://github.com/seL4/l4v/tree/master)
+
+In order to make isabelle here work, following configs are required:
+
+```
+$ isabelle components -I
+$ isabelle components -a
+```
