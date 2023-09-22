@@ -79,3 +79,24 @@ $ isabelle components -a
 To test the proofs, follow the [docs](https://github.com/seL4/l4v/blob/master/docs/setup.md) for l4v. The all-in-one approach to run test is to do 
 
 `./run_tests` in `l4v` folder
+
+## Nits
+
+When using `repo`, might run into this error: 
+
+```
+git_command.GitCommandError: GitCommandError: git command failure
+    Project: manifests
+    Args: var GIT_COMMITTER_IDENT
+    Stdout:
+None
+    Stderr:
+Committer identity unknown
+```
+
+Simple fix is to 
+
+```
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
