@@ -78,7 +78,9 @@ $ isabelle components -a
 
 To test the proofs, follow the [docs](https://github.com/seL4/l4v/blob/master/docs/setup.md) for l4v. The all-in-one approach to run test is to do 
 
-`./run_tests` in `l4v` folder
+`./run_tests` in `l4v` folder.
+In a verbose way:
+`./tun_tests -v`
 
 ## Nits
 
