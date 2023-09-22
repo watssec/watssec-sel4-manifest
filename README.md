@@ -55,9 +55,27 @@ Verification related file structure layout
 
 l4v contains most of the proofs, details can be found in [here](https://github.com/seL4/l4v/tree/master)
 
+### l4v docker
+
+file s†ruc†ure layou†
+
+```
+- seL4-CAmkES-L4v-dockerfiles
+- verification
+  - HOL4
+  - l4v
+  - polyml
+  - graph-refine
+  - isabelle 
+```
+
 In order to make isabelle here work, following configs are required:
 
 ```
 $ isabelle components -I
 $ isabelle components -a
 ```
+
+To test the proofs, follow the [docs](https://github.com/seL4/l4v/blob/master/docs/setup.md) for l4v. The all-in-one approach to run test is to do 
+
+`./run_tests` in `l4v` folder
