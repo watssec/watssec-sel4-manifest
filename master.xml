@@ -15,7 +15,7 @@
 <remote name="verification" fetch="https://github.com/seL4"/>
 
 <default revision="master" remote="seL4" />
-<project name="seL4-CAmkES-L4v-dockerfiles.git" remote="Kindhearted57" dest-branch="master" revision="9f337a8" path="docker" />
+<project name="seL4-CAmkES-L4v-dockerfiles.git" remote="Kindhearted57" dest-branch="master" revision="9f337a84c1c18ba6bd156f1e84bfc609f0fe57c6" path="docker" />
 <project name="seL4.git" remote="Kindhearted57" revision="7336c5c7511d70d444c2b70a5822ae3047c936d3" dest-branch="master" path="kernel"/>
 <project name="seL4_tools.git" path="tools/seL4">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
