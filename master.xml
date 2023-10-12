@@ -32,7 +32,7 @@
 <project name="nanopb" path="tools/nanopb" revision="refs/tags/0.4.3" upstream="master" remote="nanopb"/>
 <project name="sel4_projects_libs" path="projects/sel4_projects_libs" />
 
-<project name="HOL" remote="verification" path="HOL4"  revision="ab03cec5200c8b23f9ba60c5cea958cfcd0cd158" revision="successful-decompile" />
+<project name="HOL" remote="verification" path="HOL4"  revision="ab03cec5200c8b23f9ba60c5cea958cfcd0cd158" dest-branch="successful-decompile" />
 <project name="graph-refine" revision="8924af0c61c3c863db7957e0ebac7ae1ceefad9d" dest-branch="master" remote="verification" />
 <project name="isabelle" remote="verification"  revision="refs/tags/Isabelle2023" dest-branch="ts-2023" />
 <project name="l4v" remote="verification"  revision="d0bab9c79f0d6fb86d85b2a185bbe6db2dd0c327" dest-branch="master" />
