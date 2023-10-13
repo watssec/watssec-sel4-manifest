@@ -16,8 +16,8 @@
 
 <default revision="master" remote="seL4" />
 <project name="seL4-CAmkES-L4v-dockerfiles.git" remote="Kindhearted57" dest-branch="master" revision="9f337a84c1c18ba6bd156f1e84bfc609f0fe57c6" path="docker" />
-<!--<project name="seL4.git" remote="Kindhearted57" revision="7336c5c7511d70d444c2b70a5822ae3047c936d3" dest-branch="master" path="kernel"/>
--->
+<project name="seL4.git" remote="Kindhearted57" revision="7336c5c7511d70d444c2b70a5822ae3047c936d3" dest-branch="master" path="kernel"/>
+
 <project name="seL4_tools.git" path="tools/seL4">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
@@ -33,10 +33,10 @@
 <project name="nanopb" path="tools/nanopb" revision="refs/tags/0.4.3" upstream="master" remote="nanopb"/>
 <project name="sel4_projects_libs" path="projects/sel4_projects_libs" />
 
-<project name="HOL" remote="verification" path="HOL4"  revision="ab03cec5200c8b23f9ba60c5cea958cfcd0cd158" dest-branch="successful-decompile" />
-<project name="graph-refine" revision="8924af0c61c3c863db7957e0ebac7ae1ceefad9d" dest-branch="master" remote="verification" />
-<project name="isabelle" remote="verification"  revision="refs/tags/Isabelle2022" dest-branch="ts-2022" />
-<project name="l4v" remote="verification"  revision="d0bab9c79f0d6fb86d85b2a185bbe6db2dd0c327" dest-branch="master" />
-<project name="polyml" remote="verification" path="HOL4/polyml"  revision="bf2020d077bfbb1c5911dcef20bd275c95da7162" dest-branch="successful-decompile"/>
- <project name="seL4" remote="verification" revision="3534865d334979737971e22fbf1bf777c6dd4b06"/>     
+<project name="HOL" remote="verification" path="verification/HOL4"  revision="ab03cec5200c8b23f9ba60c5cea958cfcd0cd158" dest-branch="successful-decompile" />
+<project name="graph-refine" revision="8924af0c61c3c863db7957e0ebac7ae1ceefad9d" path="verification/graph-refine" dest-branch="master" remote="verification" />
+<project name="isabelle" remote="verification"  path="verification/isabelle" revision="refs/tags/Isabelle2022" dest-branch="ts-2022" />
+<project name="l4v" revision="deade608ac2d50d54549a4c1c476fe7a5894baa5" path="verification/l4v" dest-branch="master"/>
+<project name="polyml" remote="verification" path="verification/HOL4/polyml"  revision="bf2020d077bfbb1c5911dcef20bd275c95da7162" dest-branch="successful-decompile"/>
+<project name="seL4.git" remote="Kindhearted57" revision="7336c5c7511d70d444c2b70a5822ae3047c936d3" dest-branch="master" path="verification/seL4"/>
 </manifest>
