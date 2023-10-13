@@ -38,5 +38,5 @@
 <project name="isabelle" remote="verification"  path="verification/isabelle" revision="refs/tags/Isabelle2022" dest-branch="ts-2022" />
 <project name="l4v" revision="deade608ac2d50d54549a4c1c476fe7a5894baa5" path="verification/l4v" dest-branch="master"/>
 <project name="polyml" remote="verification" path="verification/HOL4/polyml"  revision="bf2020d077bfbb1c5911dcef20bd275c95da7162" dest-branch="successful-decompile"/>
-<project name="seL4" remote="Kindhearted57" revision="7336c5c7511d70d444c2b70a5822ae3047c936d3" dest-branch="master" path="verification/seL4"/>
+
 </manifest>
