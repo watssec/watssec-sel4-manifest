@@ -84,7 +84,7 @@ In a verbose way:
 
 ## Nits
 
-When using `repo`, might run into this error: 
+* When using `repo`, might run into this error: 
 
 ```
 git_command.GitCommandError: GitCommandError: git command failure
@@ -102,3 +102,8 @@ Simple fix is to
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
+
+* When generating the results of c-parser for seL4, there might be a haskell setting error `haskell-translator failed`
+(Although this has been tried to be solved in dockerfiles)
+
+This can normally be fixed by editing the dockerfile a bit. e.g., adding `apt-get update` before the haskell configurations.
