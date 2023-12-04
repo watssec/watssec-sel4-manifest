@@ -24,7 +24,7 @@
 </project>
 <project name="sel4runtime.git" path="projects/sel4runtime"/>
 <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
-<project name="seL4_libs.git" path="projects/sel4_libs" revision="c4e061572c9acd2915fa5f1dee10353db391e45a"/>
+<project name="seL4_libs.git" path="projects/sel4_libs" revision="12.1.x-compatible"/>
 <project name="util_libs.git" path="projects/util_libs" />
 <project name="sel4-example.git" revision="297f698296151cbcb5eea83512f741617f035db1" remote="watssec" path="projects/sel4-example" dest-branch="main">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
