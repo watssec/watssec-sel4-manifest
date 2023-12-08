@@ -17,7 +17,7 @@
 <project name="seL4-CAmkES-L4v-dockerfiles.git" remote="Kindhearted57" dest-branch="master" revision="9f337a84c1c18ba6bd156f1e84bfc609f0fe57c6" path="docker" />
 <project name="seL4" remote="Kindhearted57" revision="7336c5c7511d70d444c2b70a5822ae3047c936d3" dest-branch="master" path="kernel"/>
 
-<project name="seL4_tools.git" path="tools/seL4" revision="12.1.x-compatible">
+<project name="seL4_tools.git" path="tools/seL4" revision="12.1.x-compatible" remote="verification">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
 </project>
