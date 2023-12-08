@@ -28,8 +28,8 @@
 <project name="sel4-example.git" revision="297f698296151cbcb5eea83512f741617f035db1" remote="watssec" path="projects/sel4-example" dest-branch="main">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
 </project>
-<project name="opensbi" remote="opensbi" remote="verification" revision="refs/tags/v0.9" path="tools/opensbi"/>
-<project name="nanopb" path="tools/nanopb" remote="verification" revision="refs/tags/0.4.3" upstream="master" remote="nanopb"/>
+<project name="opensbi" remote="opensbi"  revision="refs/tags/v0.9" path="tools/opensbi"/>
+<project name="nanopb" path="tools/nanopb"  revision="refs/tags/0.4.3" upstream="master" remote="nanopb"/>
 <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="verification" revision="12.1.x-compatible"/>
 
 <project name="HOL" remote="verification" path="verification/HOL4"  revision="ab03cec5200c8b23f9ba60c5cea958cfcd0cd158" dest-branch="successful-decompile" />
