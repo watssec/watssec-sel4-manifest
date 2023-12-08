@@ -14,7 +14,6 @@
 <remote fetch="https://github.com/riscv" name="opensbi"/>
 <remote name="verification" fetch="https://github.com/seL4"/>
 
-<default revision="master" remote="seL4" />
 <project name="seL4-CAmkES-L4v-dockerfiles.git" remote="Kindhearted57" dest-branch="master" revision="9f337a84c1c18ba6bd156f1e84bfc609f0fe57c6" path="docker" />
 <project name="seL4" remote="Kindhearted57" revision="7336c5c7511d70d444c2b70a5822ae3047c936d3" dest-branch="master" path="kernel"/>
 
@@ -22,18 +21,18 @@
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
 </project>
-<project name="sel4runtime.git" path="projects/sel4runtime" revision="12.1.x-compatible"/>
-<project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
-<project name="seL4_libs.git" path="projects/sel4_libs" revision="12.1.x-compatible"/>
-<project name="util_libs.git" path="projects/util_libs" revision="12.1.x-compatible" />
+<project name="sel4runtime.git" path="projects/sel4runtime" remote="seL4" revision="12.1.x-compatible"/>
+<project name="musllibc.git" path="projects/musllibc" remote="seL4" revision="sel4"/>
+<project name="seL4_libs.git" path="projects/sel4_libs" remote="seL4" revision="12.1.x-compatible"/>
+<project name="util_libs.git" path="projects/util_libs" remote="seL4" revision="12.1.x-compatible" />
 <project name="sel4-example.git" revision="297f698296151cbcb5eea83512f741617f035db1" remote="watssec" path="projects/sel4-example" dest-branch="main">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
 </project>
-<project name="opensbi" remote="opensbi" revision="refs/tags/v0.9" path="tools/opensbi"/>
-<project name="nanopb" path="tools/nanopb" revision="refs/tags/0.4.3" upstream="master" remote="nanopb"/>
-<project name="sel4_projects_libs" path="projects/sel4_projects_libs" />
+<project name="opensbi" remote="opensbi" remote="seL4" revision="refs/tags/v0.9" path="tools/opensbi"/>
+<project name="nanopb" path="tools/nanopb" remote="seL4" revision="refs/tags/0.4.3" upstream="master" remote="nanopb"/>
+<project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="seL4" revision="12.1.x-compatible"/>
 
-<project name="HOL" remote="verification" path="verification/HOL4"  revision="ab03cec5200c8b23f9ba60c5cea958cfcd0cd158" dest-branch="successful-decompile" />
+<project name="HOL" remote="verification" path="verification/HOL4" remote="seL4"  revision="ab03cec5200c8b23f9ba60c5cea958cfcd0cd158" dest-branch="successful-decompile" />
 <project name="graph-refine" revision="8924af0c61c3c863db7957e0ebac7ae1ceefad9d" path="verification/graph-refine" dest-branch="master" remote="verification" />
 <project name="isabelle" remote="verification"  path="verification/isabelle" revision="refs/tags/Isabelle2022" dest-branch="ts-2022" />
 <project name="l4v" remote="verification" revision="deade608ac2d50d54549a4c1c476fe7a5894baa5" path="verification/l4v" dest-branch="master"/>
