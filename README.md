@@ -84,6 +84,7 @@ In a verbose way:
 
 ## Nits
 
+* It is very important to keep everything with the same version number. Here I use 12.1.x compatible for all the repos used.
 * When using `repo`, might run into this error: 
 
 ```
@@ -107,3 +108,5 @@ git config --global user.email "your.email@example.com"
 (Although this has been tried to be solved in dockerfiles)
 
 This can normally be fixed by editing the dockerfile a bit. e.g., adding `apt-get update` before the haskell configurations.
+
+
