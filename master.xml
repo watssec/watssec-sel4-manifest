@@ -18,14 +18,14 @@
 <project name="seL4-CAmkES-L4v-dockerfiles.git" remote="Kindhearted57" dest-branch="master" revision="9f337a84c1c18ba6bd156f1e84bfc609f0fe57c6" path="docker" />
 <project name="seL4" remote="Kindhearted57" revision="7336c5c7511d70d444c2b70a5822ae3047c936d3" dest-branch="master" path="kernel"/>
 
-<project name="seL4_tools.git" path="tools/seL4">
+<project name="seL4_tools.git" path="tools/seL4" revision="12.1.x-compatible">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
 </project>
-<project name="sel4runtime.git" path="projects/sel4runtime"/>
+<project name="sel4runtime.git" path="projects/sel4runtime" revision="12.1.x-compatible"/>
 <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
 <project name="seL4_libs.git" path="projects/sel4_libs" revision="12.1.x-compatible"/>
-<project name="util_libs.git" path="projects/util_libs" />
+<project name="util_libs.git" path="projects/util_libs" revision="12.1.x-compatible" />
 <project name="sel4-example.git" revision="297f698296151cbcb5eea83512f741617f035db1" remote="watssec" path="projects/sel4-example" dest-branch="main">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
 </project>
